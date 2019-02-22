@@ -1,0 +1,39 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+
+// Variables
+@import 'variables';
+
+// css || scss
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import "~toastr/toastr.scss";
+
+.router-link-active {
+    background-color: #16416f;
+    color: white;
+}
+
+.fas.fa-stop:hover,
+.fas.fa-plus:hover,
+.fas.fa-tags:hover,
+.fas.fa-dollar-sign:hover,
+.badge.badge-secondary:hover {
+    cursor: pointer;
+}
+
+.fas.fa-stop,
+.fas.fa-plus {
+    margin-left: 5px;
+}
+
+.fa-options {
+    opacity: 0.5;
+}
+
+.timer-description {
+    border: none;
+    margin: 0 5px;
+}
